@@ -70,5 +70,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 </distributionManagement>
   <properties>
   	<java-version>1.8</java-version>
+  	
+    <jenkins.version>1.609.1</jenkins.version>
   </properties>
 </project>
