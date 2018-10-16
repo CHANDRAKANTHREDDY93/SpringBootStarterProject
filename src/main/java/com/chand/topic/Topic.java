@@ -1,10 +1,16 @@
 package com.chand.topic;
 
+
 public class Topic {
+	
 	//member variables
 	private String id;
 	private String name;
 	private String description;
+	
+	public Topic() {
+		
+	}
 	
 	public String getId() {
 		return id;
@@ -27,6 +33,7 @@ public class Topic {
 	/**
 	 * @param id
 	 * @param description
+	 * @param name
 	 */
 	public Topic(String id, String name, String description) {
 		super();
