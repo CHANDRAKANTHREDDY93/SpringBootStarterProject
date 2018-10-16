@@ -45,7 +45,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	</plugins>
 </build>
 	
-
+	<ciManagement>
+    <system>continuum</system>
+    <url>http://127.0.0.1:8080/continuum</url>
+    <notifiers>
+      <notifier>
+        <type>mail</type>
+        <sendOnError>true</sendOnError>
+        <sendOnFailure>true</sendOnFailure>
+        <sendOnSuccess>false</sendOnSuccess>
+        <sendOnWarning>false</sendOnWarning>
+        <configuration><address>continuum@127.0.0.1</address></configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
   <properties>
   	<java-version>1.8</java-version>
   </properties>
